@@ -18,7 +18,7 @@ public class CreateAnAccount extends BasePage {
     static String textodaemail = "";
 
     public void setEmailParaCadastro() {
-        String email = ("jgsj"+RandomStringUtils.randomAlphabetic (3)+"@orbia.ag");
+        String email = ("josinaldo.junior"+RandomStringUtils.randomAlphabetic (3)+"@orbia.ag");
         escreverTexto("email_create",email);
         textodaemail = email;
         System.out.println(email);
